@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    /* background-color: hsl(0, 0%, 18%); */
+    background-image: url(./option\ 2.png);
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#clockContainer {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clock {
+    font-size: 6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: hsla(0, 0%, 67%, 0.13);
+    backdrop-filter: blur(10px);
+    color: hsl(0, 0%, 84%);
+}
